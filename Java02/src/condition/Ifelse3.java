@@ -60,5 +60,7 @@ public class Ifelse3 {
 		{
 			System.out.println("윤년");
 		}
+		
+		sc.close();
 	}
 }
