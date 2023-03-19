@@ -1,0 +1,9 @@
+package operator;
+
+public class Oper2 {
+	public static void main(String[] args) {
+		int kor = 50;
+		int eng = 40;
+		int math = 60;
+	}
+}

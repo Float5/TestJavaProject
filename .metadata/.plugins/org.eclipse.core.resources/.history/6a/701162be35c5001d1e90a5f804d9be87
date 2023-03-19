@@ -1,0 +1,9 @@
+package variable;
+
+public class Type2 {
+	public static void main(String[] args) {
+		String name = "윤성환";
+		String birth = "20090803";
+		double height = "172.8";
+	}
+}
