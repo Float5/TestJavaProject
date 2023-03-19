@@ -8,6 +8,7 @@ public class Ifelse3 {
 		int score = 0;
 		int pw = 12345678;
 		int scannedpw = 0;
+		int year = 0;
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("나이를 입력하세요");
@@ -50,6 +51,14 @@ public class Ifelse3 {
 		}else
 		{
 			System.out.println("비밀번호가 다릅니다");
+		}
+		
+		System.out.println("년도를 입력하세요");
+		year = sc.nextInt();
+		
+		if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))
+		{
+			System.out.println("윤년");
 		}
 	}
 }
