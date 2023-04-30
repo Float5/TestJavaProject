@@ -1,6 +1,0 @@
-package operator;
-
-public class Oper3 {
-	boolean b = true;
-	b = false;
-}

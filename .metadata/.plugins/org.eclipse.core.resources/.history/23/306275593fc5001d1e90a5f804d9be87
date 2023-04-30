@@ -1,9 +1,0 @@
-package operator;
-
-public class Oper3 {
-	boolean B = true;
-	
-	b = 3 > 2;
-	
-	
-}
